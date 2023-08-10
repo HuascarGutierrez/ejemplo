@@ -4,11 +4,34 @@
     box-sizing: border-box;
 }
 body{
-    background: #5A2D6C;
+    background: white;
 }
 main{
     background-color: white;
     color: deeppink;
     text-align: center;
     font-family: Arial;
+}
+.icon-facebook{
+    background: url(./logos/telegram-svgrepo-com.svg);
+    background-size: 32px;
+}
+.icon-youtube{
+    background: url(./logos/youtube-168-svgrepo-com.svg);
+    background-size: 32px;
+}
+.icon-accesibility{
+        display: block;
+        width: 32px;
+        height: 32px;
+}
+.social-contanier{
+    display: flex;
+    justify-content: right;
+}
+footer{
+    margin: 0 32px 10px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
